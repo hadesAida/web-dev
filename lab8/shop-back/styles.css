@@ -1,0 +1,9 @@
+body{
+    background-color: pink;
+}
+.product-list img {
+    width: 100%; /* Ensures images scale with their container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures images fill the space nicely */
+    border-radius: 8px; /* Optional: Rounds corners for a cleaner look */
+}
